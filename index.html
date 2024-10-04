@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exam-Prep.com</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div id="logo">
+          <img src="assets/my-logo.jpg" alt="ExamPrep logo" id="logo" />
+          <h1>Exam Prep</h1>
+        </div>
+        <ul class="nav-items txt-decore">
+          <li class="nav_item focused">
+            <a id="loadApp" class="border" href="#download">DownloadApp</a>
+          </li>
+          <li class="nav_item focused">
+            <a id="about" class="border" href="#about">About</a>
+          </li>
+        </ul>
+      </nav>
+      <hr class="line" />
+    </header>
+    <!-- ===== elements ===== -->
+    <main class="main">
+      <div class="search">
+        <input
+          id="search"
+          class="focused border"
+          type="text"
+          name="Search"
+          placeholder="Search a resource"
+        />
+      </div>
+      <div class="container">
+        <div class="blocks">
+          <!-- <h2 id="headings">Readings</h2> -->
+          <a
+            class="txt-decore clickable focused border"
+            id="text"
+            href="#textbook"
+            >Text Book</a
+          >
+          <a
+            class="txt-decore clickable focused border"
+            id="guide"
+            href="#guidebook"
+            >Guide Book</a
+          >
+        </div>
+        <div class="mid-block">
+          <textarea
+            class="textarea focused border"
+            id="schedule"
+            name="Schedule"
+            rows="6"
+            placeholder="Make your daily schedule"
+          ></textarea>
+        </div>
+        <div class="blocks">
+          <!-- <h2 id="headings">Exams</h2> -->
+          <a
+            class="txt-decore clickable focused border"
+            id="sheet"
+            href="#examsheet"
+            >Exam Sheet</a
+          >
+          <a
+            class="txt-decore clickable focused border"
+            id="mock"
+            href="#mocktest"
+            >Mock Test</a
+          >
+        </div>
+      </div>
+      <hr />
+    </main>
+    <footer></footer>
+  </body>
+</html>
